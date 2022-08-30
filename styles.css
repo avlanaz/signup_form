@@ -4,11 +4,19 @@ body {
     flex-direction: row;
 }
 
+img {
+    object-fit: cover;
+}
 
 .image-box {
-    flex: 1 1 auto;
+    width: 400px;
+    flex: 40% 40% 1;
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    /* alt="Fern, Photo by Halie West on Unsplash" */
 }
 
 .form-box {
+    width: 800px;
     flex: 1 1 auto;
+    background-color: aquamarine;
 }
